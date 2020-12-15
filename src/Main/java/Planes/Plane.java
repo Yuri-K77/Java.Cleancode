@@ -2,7 +2,7 @@ package Planes;
 
 import java.util.Objects;
 
-abstract public class Plane {
+public abstract class Plane {
     String model;
     private int maxSpeed;
     private int maxFlightDistance;
@@ -23,7 +23,7 @@ abstract public class Plane {
         return maxSpeed;
     }
 
-    public int GetMaxFlightDistance() {
+    public int getMaxFlightDistance() {
         return maxFlightDistance;
     }
 
